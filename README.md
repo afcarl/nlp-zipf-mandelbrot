@@ -15,6 +15,6 @@ Sample chart:
 
 Other stats:
 ~~~
-Number of words which cover 50% of corpus: 181
-Number of hapax legomena: 10542
+Number of words which cover 50% of corpus: 145
+Number of hapax legomena: 7716
 ~~~

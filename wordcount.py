@@ -20,7 +20,7 @@ def create_words_rank(corpus_file, synonyms):
     for line in f:
       words = re.findall(r"[a-zA-ZżółćęśąźńŻÓŁĆĘŚĄŹŃ]+", line)
       for word in words:
-        word = word.strip()
+        word = word.strip().lower()
         proper_word = synonyms[word] if word in synonyms else word
         if proper_word in words_rank:
           words_rank[proper_word] += 1
